@@ -38,10 +38,10 @@ The API Gateway routes requests to the Product Microservice using the service na
 **Swagger UI**
 
 ## Eureka Server Instance View
-![My Screenshot](Publisher/Screenshot/Kafka_Topic.jpg)
+![My Screenshot](BFF.Web/Image/Eureka_Service_Registered.jpg)
 
 ## Swagger - BFF.Web Gateway Calling Product Microservice API
-![My Screenshot](Publisher/Screenshot/Message_Sender.jpg)
+![My Screenshot](BFF.Web/Image/Ocelot_API_Gateway.jpg)
 
 ## How It Works
 1. Product.API registers itself with the Eureka Server using Steeltoe Discovery Client.
